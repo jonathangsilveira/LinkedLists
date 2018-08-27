@@ -36,7 +36,7 @@ public class MailProcessorService extends Service {
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
-        return null;
+        return mMessenger.getBinder();
     }
 
     private void sendResponse(String response) {

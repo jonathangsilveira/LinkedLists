@@ -23,7 +23,7 @@ final class ListIntersectionHelper {
     }
 
     @Nullable
-    public static Object getIntersectionNode(Node firstHead, Node secondHead) {
+    static Object getIntersectionNode(Node firstHead, Node secondHead) {
         int nodes1 = getCount(firstHead);
         int nodes2 = getCount(secondHead);
         int differenceCount = nodes1 - nodes2;

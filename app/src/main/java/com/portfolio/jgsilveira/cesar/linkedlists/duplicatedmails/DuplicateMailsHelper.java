@@ -27,7 +27,7 @@ public final class DuplicateMailsHelper {
         }
     }
 
-    public static boolean hasDuplicated(Node head) {
+    static boolean hasDuplicated(Node head) {
         if (head == null) {
             return false;
         }
